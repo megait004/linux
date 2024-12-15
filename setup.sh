@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo apt update && sudo apt upgrade
 sudo apt install terminator neovim git zsh build-essential openssh wget curl
 
 echo 'deb http://download.opensuse.org/repositories/home:/lamlng/Debian_12/ /' | sudo tee /etc/apt/sources.list.d/home:lamlng.list
